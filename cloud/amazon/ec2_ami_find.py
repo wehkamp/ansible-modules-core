@@ -149,7 +149,7 @@ EXAMPLES = '''
 # Search for the latest Ubuntu 14.04 AMI
 - ec2_ami_find:
     name: "ubuntu/images/ebs/ubuntu-trusty-14.04-amd64-server-*"
-    owner: 099720109477
+    owner: "099720109477"
     sort: name
     sort_order: descending
     sort_end: 1
